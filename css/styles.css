@@ -1,0 +1,204 @@
+body {
+  font-family: montserrat;
+  line-height: 1.2;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.1rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  color: rgb(250, 250, 250);
+  font-size: 1.2rem;
+  font-family: montserrat;
+  font-weight: 400;
+}
+
+/* Download Buttom */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title+Image Section */
+.cute-dog {
+  position: absolute;
+  right: 25%;
+  transform: rotate(25deg);
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.row {
+  margin-top: rem;
+}
+
+h1 {
+  color: rgb(250, 250, 250);
+  font-family: montserrat 900;
+  font-size: 3.9rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  color: rgb(14, 13, 13);
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+.plan-h2 {
+  margin-top: 2rem;
+}
+
+em {
+  color: rgb(250, 250, 250);
+}
+
+h3 {
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+.find-h3 {
+  padding-top: 2rem;
+}
+
+p .copy {
+  color: #353434;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+  background-color: white;
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+.testimonial-text {
+  padding: 0% 5%;
+}
+
+/* Prees section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.logo-p {
+  width: 12%;
+  margin: 40px 40px 5px;
+}
+
+.logo-p-tnw {
+  width: 8rem;
+}
+
+/* Price-Section */
+.card-header {
+  text-align: center;
+  justify-content: center;
+}
+.card-body {
+  text-align: center;
+  justify-content: center;
+}
+
+sign-up {
+  background-color: #ef8172;
+}
+.sign-up:hover {
+  background-color: #a75d53;
+}
+
+#pricing {
+  padding: 45px 50px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+  padding: 2% 8%;
+  text-align: center;
+  align-items: center;
+  background-color: #ff4c68;
+}
+
+#footer {
+  padding: 5% 10%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.social-footer {
+  padding-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .cute-dog {
+    position: static;
+    transform: rotate(0);
+  }
+}
